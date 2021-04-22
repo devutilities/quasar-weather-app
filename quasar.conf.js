@@ -113,9 +113,9 @@ module.exports = function (/* ctx */) {
       workboxPluginMode: 'GenerateSW', // 'GenerateSW' or 'InjectManifest'
       workboxOptions: {}, // only for GenerateSW
       manifest: {
-        name: 'Minicurso Quasar',
-        short_name: 'Minicurso Quasar',
-        description: 'A Quasar Framework app',
+        name: 'Quasar Weather',
+        short_name: 'Quasar Weather',
+        description: 'A weather Quasar app',
         display: 'standalone',
         orientation: 'portrait',
         background_color: '#ffffff',
@@ -180,7 +180,7 @@ module.exports = function (/* ctx */) {
       builder: {
         // https://www.electron.build/configuration/configuration
 
-        appId: 'minicurso-quasar'
+        appId: 'quasar-weather'
       },
 
       // More info: https://v1.quasar.dev/quasar-cli/developing-electron-apps/node-integration
